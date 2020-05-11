@@ -1,0 +1,164 @@
+html {
+	font: 500 14px 'roboto';
+	color: #333;
+	background-color: #fafafa;
+}
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+p {
+	margin: 0;
+}
+/* banner */
+.banner {
+    width: 100%;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+}
+/* 主体部分 */
+.main {
+    padding: 15px 0;
+    min-height: 450px;
+}
+/* 左边内容区域 */
+.content img{
+    width: 100%;
+    height: auto;
+}
+.caption>h3{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+}
+/* 右边推荐分类 */
+.recommend {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px 15px;
+    border: 1px solid #f5f5f5;
+}
+.recommend li {
+    border-bottom: 1px solid #eee;
+    line-height: 2em;
+    margin-bottom: 5px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 底部 */
+footer {
+    width: 100%;
+    background: #4a4a4a;
+    line-height: 90px;
+    color: #eee;
+}
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+footer .container .copyright,
+footer .container .links {
+    flex: 1;
+}
+footer .container .links {
+    text-align: right;
+}
+
+/* 产品页面 */
+.lists {
+    width: 100%;
+    padding: 10px 0;
+}
+.item {
+    padding: 10px;
+    border: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+}
+.item .title h2 {
+    font-size: 18px;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item .date{
+    padding: 0 0 5px;
+    color: #666;
+}
+.item .intro {
+    width: 100%;
+    line-height: 1.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.item .link {
+    width: 100%;
+    text-align: right;
+}
+/* 详情页 */
+.detail {
+    width: 100%;
+}
+.detail h2 {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0;
+}
+.detail .text {
+    padding: 5px 0;
+    line-height: 1.5em;
+}
+/* 留言 */
+.contact-box {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 6px;
+}
+
+.contact-box input {
+    height: 50px;
+    border: 1px solid #f7f6f5;
+    font-size: 15px;
+    background-color: #f7f6f5;
+    font-weight: 500
+}
+
+.contact-box textarea {
+    border: 1px solid #f7f6f5;
+    padding-top: 10px;
+    background-color: #f7f6f5;
+    font-size: 15px;
+    font-weight: 500
+}
+
+.contact-box button {
+    width: 100%;
+    background-color: #325eff;
+    border: 0;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: 0;
+    font-weight: 500;
+    font-size: 15px
+}
+
+.contact-box button:hover {
+    background-color: #0f39cf;
+}
